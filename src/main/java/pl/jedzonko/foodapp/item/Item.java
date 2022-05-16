@@ -14,6 +14,15 @@ public class Item {
     private String shortDescription;
     @Column(length = 1024)
     private String description;
+    private String imgUrl;
+
+    public String getImgUrl() {
+        return imgUrl;
+    }
+
+    public void setImgUrl(final String imgUrl) {
+        this.imgUrl = imgUrl;
+    }
 
     public Long getId() {
         return id;
